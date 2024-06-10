@@ -1,5 +1,5 @@
 import MiPrimerComponente from './components/miPrimerComponente/MiPrimerComponente'
-
+import { Estado } from './components/estado/Estado';
 const MyFunction = () => {
   return <>River </>;
 };
@@ -9,6 +9,7 @@ const MyFunction = () => {
 function App() {
   return (
     <>
+      <Estado/>
       <MyFunction/>
       <MiPrimerComponente año={1901} fecha={"25/5"}/>
     </>
