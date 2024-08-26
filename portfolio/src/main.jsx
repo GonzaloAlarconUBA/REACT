@@ -1,10 +1,32 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import App from "./App.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import * as ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
+
+import Conversor from "./components/Conversor.jsx";
+
+//Router
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/conversor",
+    element: (
+      <div>
+        <Conversor />
+      </div>
+    ),
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <RouterProvider router={router}>
+      <App />
+    </RouterProvider>
+  </React.StrictMode>
+);

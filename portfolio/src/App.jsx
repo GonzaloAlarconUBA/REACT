@@ -8,9 +8,9 @@ import { FaGithub } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
-      title: "Proyecto 1",
-      description: "Descripción del proyecto 1",
-      link: "#",
+      title: "Conversor",
+      description: "conversor de monedas",
+      link: "/conversor",
     },
     {
       title: "Proyecto 2",
@@ -100,7 +100,7 @@ const App = () => {
               <li>
                 <a
                   className="animated-button"
-                  href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRttWWlvDzgQglhFTBVrMHrjLRskpRVmFQwfrdwpmsbdPWnDbsPgSrZzLhtBDVgQqcGLPhg"
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpdlzRDQZXncdVxFdXDdjqchwrdfWwGBlNcCBhlnPGgZjcmlvJlBtjpxnwtDGPtdtlFkzL"
                 >
                   <IoIosMail color="red" />
                 </a>
@@ -108,7 +108,7 @@ const App = () => {
               <li>
                 <a
                   className="animated-button"
-                  href="https://wa.me/541151220207/?text=Hola%20te%20quiera%20contactar"
+                  href="https://wa.me/541154871825/?text=Hola%20te%20quiera%20contactar"
                   target="_blank"
                 >
                   <FaWhatsapp color="Green" />
@@ -117,7 +117,7 @@ const App = () => {
               <li>
                 <a
                   className="animated-button"
-                  href="https://github.com/Nicomartinez07"
+                  href="https://github.com/GonzaloAlarconUBA/"
                 >
                   <FaGithub color="black" />
                 </a>
